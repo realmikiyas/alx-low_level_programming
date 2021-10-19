@@ -15,5 +15,5 @@ while (h != NULL)
 h = h->next;
 nelem++;
 }
-return (nelem);
+return (nelem)
 }
