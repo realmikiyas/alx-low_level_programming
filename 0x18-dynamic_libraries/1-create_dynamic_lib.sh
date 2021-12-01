@@ -1,2 +1,3 @@
 #!/bin/bash
-hared -Wl,-soname,liball.so -o liball.so *.o~
+gcc -fPIC -c *.c
+gcc -shared -Wl,-soname,liball.so -o liball.so *.o
